@@ -3,10 +3,10 @@ example.java.helloworld
 
 This is "Hello World" Example for Java.
 
-The structure ``HelloWorld`` package is like this: ::
+The structure ``helloworld`` package is like this: ::
 
   example.java.helloworld/
-  |-- HelloWorld
+  |-- helloworld
   |   `-- Main.java
   |-- LICENSE
   |-- Manifest.txt
@@ -17,16 +17,16 @@ Compile class
 
 For compile the main class for package, execute the follow command: ::
 
-  javac HelloWorld/Main.java
+  javac helloworld/Main.java
 
-This generate the ``Main.class`` file into ``HelloWorld`` directory.
+This generate the ``Main.class`` file into ``helloworld`` directory.
 
 Run class
 ---------
 
 For run the main class for package, execute the follow command: ::
 
-  java -cp . HelloWorld.Main
+  java -cp . helloworld.Main
 
 This show the ``Hello world`` message.
 
@@ -35,7 +35,7 @@ Create a JAR file
 
 For pack the main class for package as a JAR file, execute the follow command: ::
 
-  jar cfme Main.jar Manifest.txt HelloWorld.Main HelloWorld/Main.class
+  jar cfme Main.jar Manifest.txt HelloWorld.Main helloworld/Main.class
 
 
 Run a JAR file
